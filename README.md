@@ -1,4 +1,4 @@
-# Welcome to the **User Interface for District Heating Network Operators** project of Group 9D!
+# Welcome to the **User Interface for District Heating Network Operators** project!
 
 Our product, **User Interface for District Heating Network Operators**, was designed to allow the operators of the district heating networks to interact with the _optimization_ and _simulation_ algorithms that our client, Flex Technologies is working on. The two types of users, namely the _grid operators_ and the _electricity traders_, can select to view their own pages after running the application. <br><br> The grid operators can see the _real_ and _forecasted_ values for _heat demand_ and _outside temperature_ for a selected _date_, then run the _optimizer_ to come up with optimized plans for the _outlet temperature_, _mass flow rate_, _electricity production_ and _inlet temperature_ for a selected Combined Heat and Power (CHP) unit. They can then choose to _tweak_ the plan for the _outlet temperature_ and run the simulator to come up with simulated plans for the other three parameters. <br><br> The electricity traders can see that there are two different markets, namely the _day ahead_ and the _intraday_ markets. The former one shows the _forecasted_ values for _heat demand_, _outside temperature_ and _price estimate_ for a selected _date_. They can then run the _optimizer_ to come up with an optimized _electricity production_ plan. The latter market displays the _electricity production_ plan for the selected day, given in 15 minute intervals. The user can choose to _edit_ the plan and _check_ its _feasibility_.
 
@@ -7,16 +7,6 @@ Our product, **User Interface for District Heating Network Operators**, was desi
 **User Interface for District Heating Network Operators** is developed by students from **TU Delft** to make the interaction with the optimizer algorithms that our client is working on, as intuitive as possible. We have used **Vue 3 with Vuetify**, and **Typescript** for _scripting_ and _designing_. It was built **modular** such that it can be extended with extra functionalities and components later, and has a mocked API, thus the integration with the backend algorithms should be easier.
 
 Our project has successfully reached a working version with all required features implemented, but there are of course a lot that can be added or improved upon. So take it out for a spin and let us know how we can make it a better, more intuitive application!
-
-## Group members
-
-| 📸                                                                                        | Name | Email |
-|-------------------------------------------------------------------------------------------|---|---|
-| ![](https://gitlab.ewi.tudelft.nl/uploads/-/system/user/avatar/3816/avatar.png?width=400) | Dan Sochirca | D.Sochirca@student.tudelft.nl |
-| ![](https://gitlab.ewi.tudelft.nl/uploads/-/system/user/avatar/2505/avatar.png?width=400) | Uğur Doruk Kırbeyi | U.D.Kirbeyi@student.tudelft.nl |
-| ![](https://gitlab.ewi.tudelft.nl/uploads/-/system/user/avatar/2786/avatar.png?width=400) | Niels Tomassen | N.H.C.Tomassen@student.tudelft.nl |
-| ![](https://gitlab.ewi.tudelft.nl/uploads/-/system/user/avatar/2636/avatar.png?width=400) | Doğa Taşcılar | D.Tasclar@student.tudelft.nl |
-| ![](https://gitlab.ewi.tudelft.nl/uploads/-/system/user/avatar/2609/avatar.png?width=400) | Hidde Mees Agterberg | H.M.Agterberg@student.tudelft.nl |
 
 ## How to run it
 
