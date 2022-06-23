@@ -1,0 +1,50 @@
+{
+  "name": "flex-heat",
+  "version": "0.0.0",
+  "scripts": {
+    "serve": "vite preview",
+    "build": "vite build",
+    "test:unit": "vitest --environment jsdom",
+    "coverage": "vitest --coverage --environment jsdom",
+    "dev": "vite",
+    "preview": "vite preview --port 5050",
+    "typecheck": "vue-tsc --noEmit -p tsconfig.vitest.json --composite false",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "chart.js": "^3.7.1",
+    "chartjs-plugin-dragdata": "^2.2.4",
+    "moment": "^2.29.3",
+    "pinia": "^2.0.13",
+    "roboto-fontface": "*",
+    "vue": "^3.2.33",
+    "vue-chartjs": "^4.0.7",
+    "vue-router": "^4.0.14",
+    "vuetify": "^3.0.0-beta.0",
+    "webfontloader": "^1.0.0"
+  },
+  "devDependencies": {
+    "@mdi/js": "^6.7.96",
+    "@rushstack/eslint-patch": "^1.1.0",
+    "@types/jsdom": "^16.2.14",
+    "@types/node": "^16.11.27",
+    "@types/webfontloader": "^1.0.0",
+    "@vitejs/plugin-vue": "^2.3.1",
+    "@vue/eslint-config-typescript": "^10.0.0",
+    "@vue/test-utils": "^2.0.0-rc.20",
+    "@vue/tsconfig": "^0.1.3",
+    "@vuetify/vite-plugin": "^1.0.0-alpha.0",
+    "c8": "^7.11.2",
+    "eslint": "^8.5.0",
+    "eslint-plugin-vue": "^8.2.0",
+    "jsdom": "^19.0.0",
+    "sass": "^1.38.0",
+    "sass-loader": "^10.0.0",
+    "typescript": "~4.6.3",
+    "vite": "^2.9.5",
+    "vitest": "^0.9.3",
+    "vue-cli-plugin-vuetify": "~2.4.8",
+    "vue-tsc": "^0.34.7",
+    "vuetify-loader": "^2.0.0-alpha.0"
+  }
+}
